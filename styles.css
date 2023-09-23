@@ -1,0 +1,57 @@
+/* Estilos Generales */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/Fondo-pagina-playa.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+  /* background-image: url(img/Fondo-pagina-playa.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  background-color: rgba(148, 199, 218, 0.5);
+}
+
+.titulo,
+.subtitulo {
+  text-align: center;
+  padding: 5px;
+  font-family: 'Arvo', serif;
+}
+
+.parrafo {
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-group {
+  padding: 5px;
+  margin: 15px;
+}
+
+.list-group-item {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* #list > div {
+  background-color: aliceblue;
+  padding: 3px;
+  margin-top: 10px;
+} */
+
+/* Icono Estrella para la puntuacion de los servicios  */
+/* <i class="bi bi-star-fill"></i> */

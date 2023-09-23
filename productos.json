@@ -1,0 +1,50 @@
+ [
+  {
+    "codigo" : "Bayahibe",
+    "titulo" : "Titulo",
+    "imagen" : "",
+    "descripcion" : "Mostramos la descripcion del producto",
+    "precio" : 124 ,
+    "puntuacion" : " ***** "
+  },
+  {
+    "codigo" : "Cancún",
+    "titulo" : "Titulo",
+    "imagen" : "",
+    "descripcion" : "Mostramos la descripcion del producto",
+    "precio" : 124 ,
+    "puntuacion" : " ***** "
+  },
+  {
+    "codigo" : "Playa del Carmen",
+    "titulo" : "Titulo",
+    "imagen" : "",
+    "descripcion" : "Mostramos la descripcion del producto",
+    "precio" : 124 ,
+    "puntuacion" : " ***** "
+  },
+  {
+    "codigo" : "San Andres",
+    "titulo" : "Titulo",
+    "imagen" : "",
+    "descripcion" : "Mostramos la descripcion del producto",
+    "precio" : 124 ,
+    "puntuacion" : " ***** "
+  },
+  {
+    "codigo" : "Punta Cana",
+    "titulo" : "Titulo",
+    "imagen" : "",
+    "descripcion" : "Mostramos la descripcion del producto",
+    "precio" : 124 ,
+    "puntuacion" : " ***** "
+  },
+  {
+    "codigo" : "Jamaica",
+    "titulo" : "Titulo",
+    "imagen" : "",
+    "descripcion" : "Mostramos la descripcion del producto",
+    "precio" : 124 ,
+    "puntuacion" : " ***** "
+  }
+]
