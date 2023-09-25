@@ -1,15 +1,3 @@
-// Aca estaba probando crear unos divs cuando apretara el icono o boton
-
-// function pro1() {
-//   let div = document.createElement("div");
-//   let p = document.createElement("p");
-
-//   p.innerHTML = "descripcion del producto";
-
-//   div.appendChild(p);
-//   list.appendChild(div);
-// }
-
 
 // Le agrego un evento a los iconos de la lista para que se abran en otro HTML
 
@@ -32,3 +20,32 @@ lista.addEventListener("click", function() {
   // p.innerHTML = JSON.parse(productos.json);
   // div.appendChild(p);
   // list.appendChild(div);
+
+
+  // Aqui traigo el JSON con el fetch, lo busco en la carpeta
+  fetch("json/principal.json")
+  .then((response) => response.json())
+  .then((json) => {
+    // console.log(json); 
+    json.forEach((servicio) => console.log(servicio?.codigo));
+    localStorage.setItem("servicios", JSON.stringify(json));
+  });
+  // Ahora lo obtengo con el getItem
+  const jsonServicios = JSON.parse(localStorage.getItem("servicios"));
+  // creo una cosntante para la ul en dnd voy a agregar los elementos
+  const listaGrupo = document.querySelector("#list-group");
+
+// Recorro el json de servicios y creo con un template el html dinamico principal
+  jsonServicios.forEach((servicio) => {
+    let content = document.createElement("li");
+    // creo items respetando los nombres de bootstrap
+    content.className = "list-group-item";
+    content.innerHTML = `
+        <h6>${servicio.titulo}</h3>
+        <p class="descripcionPequeña">${servicio.descripcionPequeña}</p>
+        <a href="json/servicios.json" target="_blank"><i class="bi bi-plus-circle-fill" id="iconoMas"></i></a>
+        </li>
+    `;
+    
+    listaGrupo.append(content);
+      });

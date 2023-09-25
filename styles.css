@@ -47,11 +47,9 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
-/* #list > div {
-  background-color: aliceblue;
-  padding: 3px;
-  margin-top: 10px;
-} */
+h6 {
+  font-weight: bold;
+}
 
 /* Icono Estrella para la puntuacion de los servicios  */
 /* <i class="bi bi-star-fill"></i> */

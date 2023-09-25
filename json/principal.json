@@ -1,0 +1,26 @@
+[
+  {
+    "titulo":"Bayahibe",
+    "descripcionPequeña": "Vuelos + Hotel con desayuno"
+  },
+  {
+    "titulo":"Cancún",
+    "descripcionPequeña": "Vuelo + Hotel Oasis Cancun All Inclusive"
+  },
+  {
+    "titulo":"Playa del Carmen",
+    "descripcionPequeña":"Vuelos + Hotel Sandors All Inclusive"
+  },
+  {
+    "titulo":"San Andres",
+    "descripcionPequeña":"Vuelos + Hotel San Luis Place con desayuno"
+  },
+  {
+    "titulo":"Punta Cana",
+    "descripcionPequeña":"Vuelos + Hotel Iberostar Dominicana"
+  },
+  {
+    "titulo":"Jamaica",
+    "descripcionPequeña":"Vuelo + Hotel Iberostar Rose Hall Suites All Inclusivo"
+  }
+]
