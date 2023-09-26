@@ -56,5 +56,13 @@ h6 {
   justify-content: center;
 }
 
+/* servicio html */
+div {
+  border: 1px solid rgb(130, 223, 252);
+}
+.servicio {
+  font-family:'Arvo', serif;
+}
+
 /* Icono Estrella para la puntuacion de los servicios  */
 /* <i class="bi bi-star-fill"></i> */

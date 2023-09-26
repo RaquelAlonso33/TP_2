@@ -1,12 +1,4 @@
 
-// Le agrego un evento a los iconos de la lista para que se abran en otro HTML
-
-const lista = document.getElementById("list-group");
-
-lista.addEventListener("click", function() {
-  console.log("click en el icono mas");
-});
-
 // Aca estaria llamando a los productos del archivo JSON sin el fetch
 
 // const prod = JSON.parse(productos.json);
@@ -49,14 +41,40 @@ jsonPrincipal.forEach((servicio) => {
   });
 
 
+
 // Ahora creo el fetch para el JSON de los servicios 
 
-fetch("json/servicios.json")
- .then((response) => response.json())
- .then ((json) => {
-  localStorage.setItem("servicios", JSON.stringify(json));
- })
 
-  const jsonServicios = JSON.parse(localStorage.getItem("servicios"));
+// fetch("json/servicios.json")
+//  .then((response) => response.json())
+//  .then ((json) => {
+//   localStorage.setItem("servicios", JSON.stringify(json));
+//  })
 
-  console.log(jsonServicios);
+//   const jsonServicios = JSON.parse(localStorage.getItem("servicios"));
+//   const contenedor = document.querySelector(".container");
+//   const enlace = document.getElementById("iconoMas");
+
+//   console.log(jsonServicios);
+
+//   enlace.addEventListener("click", function(jsonServicios) {
+//     console.log("hice clic");
+//     jsonServicios.forEach((servicio) => {
+//       let div = document.createElement("div");
+//       div.className = "destinos";
+//       div.innerHTML = `
+//       <h3>${servicio.codigo}</h3>
+//       `;
+//       contenedor.appendChild(div);
+//     })
+//   }); 
+ 
+  
+  // Le agrego un evento a los iconos de la lista para que se abran en otro HTML
+
+// const enlace = document.getElementById("iconoMas");
+// enlace.addEventListener("click", traerServicios()); 
+ 
+// function traerServicios(){
+//     console.log(jsonServicios);
+//   }
