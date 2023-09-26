@@ -14,10 +14,6 @@ body {
 div {
   margin: 10px;
   padding: 10px;
-  /* background-image: url(img/Fondo-pagina-playa.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
   background-color: rgba(148, 199, 218, 0.5);
 }
 
@@ -33,6 +29,12 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
+h6 {
+  font-weight: bold;
+}
+
+/* lista */
+
 .list-group {
   padding: 5px;
   margin: 15px;
@@ -47,8 +49,11 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
-h6 {
-  font-weight: bold;
+/* Boton Volver */
+
+.boton-volver {
+  display: flex;
+  justify-content: center;
 }
 
 /* Icono Estrella para la puntuacion de los servicios  */
