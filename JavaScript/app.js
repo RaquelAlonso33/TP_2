@@ -44,11 +44,14 @@ const crearHTML = (servicio) => {
   mostrarInfo();
 
 
+  
+//  No me funciona!!!! 
+
   // document.addEventListener('click',(e) =>{
-  //   if(e.target.tagName == "LI"){
+  //   if(e.target.tagName == "A"){
   //     console.log(e.target.dataset.id);
-  //     // sessionStorage.setItem("id", e.target.dataset.id)
-  //     // window.location = "servicios.html";
+  //     sessionStorage.setItem("id", e.target.dataset.id)
+  //     window.location = "servicios.html";
   //   }
   // });
   
