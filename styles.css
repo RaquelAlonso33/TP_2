@@ -60,9 +60,16 @@ h6 {
 div {
   border: 1px solid rgb(130, 223, 252);
 }
+
 .servicio {
   font-family:'Arvo', serif;
 }
+
+img {
+   width: 70%;
+   padding: 15px;
+   object-fit: fill;
+  }
 
 /* Icono Estrella para la puntuacion de los servicios  */
 /* <i class="bi bi-star-fill"></i> */

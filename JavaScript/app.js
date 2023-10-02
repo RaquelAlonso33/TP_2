@@ -1,35 +1,35 @@
+// // Intento con el async y await
 
-// Aca estaria llamando a los productos del archivo JSON sin el fetch
+let serviciosP;
 
-// const prod = JSON.parse(productos.json);
-
-// Aca pruebo crear los elementos q van a ir en el html de los prod...
-// Esto fue un intento de obtener el JSON sin saber de fetch jaja
-// La idea era que en el EventListener de la lista me agregara un div y un parrafo con la informacion de cada servicio....
-
- //   let div = document.createElement("div");
-  // let p = document.createElement("p");
-  // p.innerHTML = JSON.parse(productos.json);
-  // div.appendChild(p);
-  // list.appendChild(div);
-
-
-  // Aqui traigo el JSON ppal con el fetch, lo busco en la carpeta
-fetch("json/principal.json")
-.then((response) => response.json())
-.then((json) => {
-  localStorage.setItem("serviciosP", JSON.stringify(json));
-  });
-// Ahora lo obtengo con el getItem
-const jsonPrincipal = JSON.parse(localStorage.getItem("serviciosP"));
 // creo una cosntante para la ul en dnd voy a agregar los elementos
-const listaGrupo = document.querySelector("#list-group");
+let listaGrupo = document.querySelector("#list-group");
+
+async function mostrarInfo(){
+  serviciosP = localStorage.getItem("serviciosP");
+
+  if( serviciosP == null){
+    let response = await fetch("json/principal.json");
+    serviciosP = await response.json();
+
+    localStorage.setItem("serviciosP", JSON.stringify(serviciosP));
+  };
+
+  if ( typeof serviciosP == "string"){
+    serviciosP = JSON.parse(serviciosP);
+  };
+
+  console.log(serviciosP);
+
+  serviciosP.forEach((crearHTML));
+};
+
 
 // Recorro el json de servicios y creo, con un template, el html dinamico principal
-jsonPrincipal.forEach((servicio) => {
+const crearHTML = (servicio) => {
  let content = document.createElement("li");
   // creo items respetando los nombres de bootstrap
-  content.className = "list-group-item";
+  content.className = "list-group-item data-id=${servicio.id}";
   content.innerHTML = `
     <h6>${servicio.titulo}</h3>
     <p class="descripcionPequeña">${servicio.descripcionPequeña}</p>
@@ -38,10 +38,20 @@ jsonPrincipal.forEach((servicio) => {
     `;
     
     listaGrupo.append(content);
-  });
+  };
 
 
+  mostrarInfo();
 
+
+  // document.addEventListener('click',(e) =>{
+  //   if(e.target.tagName == "LI"){
+  //     console.log(e.target.dataset.id);
+  //     // sessionStorage.setItem("id", e.target.dataset.id)
+  //     // window.location = "servicios.html";
+  //   }
+  // });
+  
 // Ahora creo el fetch para el JSON de los servicios 
 
 
@@ -78,3 +88,18 @@ jsonPrincipal.forEach((servicio) => {
 // function traerServicios(){
 //     console.log(jsonServicios);
 //   }
+
+
+
+// Vamos a probar con asincronico: 
+
+// async function cargarJson() {
+//   const response = await fetch("json/principal.json");
+//   const serviciosP = await response.json();
+// // obtenemos el json y la guardamos en el localstorage
+//  localStorage.setItem("serviciosP", JSON.stringify(serviciosP));
+// }
+
+// cargarJson();
+
+// NO ME FUNCIONO!!!
