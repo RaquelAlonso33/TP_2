@@ -39,7 +39,7 @@ console.log(jsonServicios);
     div.innerHTML = `
       <h4 class="servicio">${servicio.codigo}</h3>
       <p class="servicio">${servicio.titulo}</p>
-      <img src="img/${servicio.imagen}">
+      <img src="${servicio.imagen}">
       <p class="servicio">${servicio.descripcion}</p>
       <p class="servicio">${servicio.precio}</p>
       <i class="bi bi-star-fill"></i>

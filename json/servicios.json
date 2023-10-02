@@ -3,7 +3,7 @@
     "id" : 1,
     "codigo" : "Bayahibe",
     "titulo" : "Catalonia Bayahibe - All Inclusive",
-    "imagen" : "Bayahibe.jpg",
+    "imagen" : "img/Bayahibe.jpg",
     "descripcion" : "El Catalonia La Romana - All Inclusive se encuentra en la playa Dominicus, a 20 minutos en coche del centro de La Romana. Este complejo elegante organiza fiestas todas las noches y ofrece WiFi gratuita. En el Catalonia La Romana podrá practicar deportes acuáticos, tomar clases de baile y participar en actividades deportivas. El establecimiento cuenta con piscina y spa de servicio completo que proporciona masajes. Todas las habitaciones de este complejo de la República Dominicana disponen de balcón, minibar, ventilador de techo y TV por cable. Los restaurantes del establecimiento La Romana sirven cocina internacional. También hay varias cafeterías y 4 bares, entre ellos un bar de zumos naturales. El All-Inclusive Catalonia La Romana está a 15,7 km del aeropuerto internacional de La Romana y a 15 minutos en coche del club de golf La Estancia.",
     "precio" : "$ 1.206.211" ,
     "puntuacion" : " ***** "
@@ -12,7 +12,7 @@
     "id" : 2,
     "codigo" : "Cancún",
     "titulo" : "Grand Oasis Cancun",
-    "imagen" : "Cancun.jpg",
+    "imagen" : "img/Cancun.jpg",
     "descripcion" : "Este complejo de ocio de todo incluido se encuentra en una playa privada y cuenta con spa, pistas de tenis y piscina al aire libre rodeada de jardines tropicales. El centro de Cancún queda a 15 km. Todas las habitaciones del Grand Oasis Cancun ofrecen vistas a los jardines o al mar. También incluyen aire acondicionado, minibar, caja fuerte y TV por cable de pantalla plana. El Grand Oasis alberga 8 restaurantes, que incluyen cocina mexicana y mediterránea, un buffet internacional y un bar de sushi. También hay 9 bares, entre ellos bares en la playa y en la piscina, salones y una discoteca. Además, el establecimiento acoge espectáculos en directo, festivales de música y actuaciones de forma regular. En la zona se pueden encontrar tiendas, discotecas y restaurantes, así como una amplia playa de arena. El personal habla varios idiomas y puede ayudar a los huéspedes a organizar actividades y excursiones.",
     "precio" :  "$ 1.887.216" ,
     "puntuacion" : " ***** "
@@ -21,7 +21,7 @@
     "id" : 3,
     "codigo" : "Playa del Carmen",
     "titulo" : "Sandos Playacar All Inclusive",
-    "imagen" : "PlayaDelCarmen.jpg",
+    "imagen" : "img/PlayaDelCarmen.jpg",
     "descripcion" : "Este complejo de todo incluido, situado en una playa privada de 800 metros, cuenta con 4 piscinas, un club para niños y adolescentes y un campo de minigolf de 9 hoyos. Este hotel de Playa del Carmen está cerca del parque acuático de Xcaret. Las habitaciones del Sandos Playacar Beach Resort son amplias, están decoradas con colores tropicales y cuentan con TV de plasma, minibar bien surtido y balcón privado. También hay un escritorio y una caja fuerte en cada habitación. El Sandos Playacar Beach Resort dispone de 2 pistas de tenis iluminadas, un gimnasio totalmente equipado y préstamo de bicicletas con visitas guiadas. Se pueden practicar actividades como snorkel y baloncesto acuático. Los huéspedes pueden disfrutar de comidas informales o más exclusivas en el Sandos Playacar Beach Resort. Hay un restaurante buffet italiano, un asador gourmet y un restaurante mexicano. ",
     "precio" : "$ 1.078.929" ,
     "puntuacion" : " ***** "
@@ -30,7 +30,7 @@
     "id" : 4,
     "codigo" : "San Andres",
     "titulo" : "San Luis Place By Dorado",
-    "imagen" : "SanAndres.avif",
+    "imagen" : "img/SanAndres.avif",
     "descripcion" : "El Hotel San Luis Place By Dorado se encuentra en San Andrés, a 4,5 km de la bahía de San Andrés y a 5,2 km de North End. El establecimiento se encuentra a 2,7 km de San Luis, a 5,2 km de La Colina y a 5,9 km de la cueva de Morgan. El hotel cuenta con recepción 24 horas, terraza y wifi gratuita. Las habitaciones del hotel disponen de aire acondicionado, armario, cafetera, minibar, caja fuerte, TV de pantalla plana y baño privado con ducha. Todas las habitaciones del Hotel San Luis Place By Dorado incluyen ropa de cama y toallas. Se sirve un desayuno americano a diario. El Hotel San Luis Place By Dorado está cerca de lugares de interés populares, como las playas de Cocoplum, Zarpada y Decameron Marazul. El aeropuerto internacional Gustavo Rojas Pinilla, situado a 6 km del hotel, es el más cercano.",
     "precio" : "$ 885.829" ,
     "puntuacion" : " ***** "
@@ -39,7 +39,7 @@
     "id" : 5,
     "codigo" : "Punta Cana",
     "titulo" : "Iberostar Dominicana All Inclusive",
-    "imagen" : "PuntaDelEste.avif",
+    "imagen" : "img/PuntaDelEste.avif",
     "descripcion" : "El Iberostar Dominicana se encuentra en el distrito de Bávaro, en El Cortecito, a 13 km de Punta Cana, y alberga una piscina al aire libre y un centro de spa. Todas las habitaciones del complejo constan de aire acondicionado, TV de pantalla plana y baño privado con ducha y artículos de aseo gratuitos. Algunas habitaciones incluyen zona de estar. El complejo cuenta con terraza, centro de fitness y bar. Condiciones del alojamiento con niños: - De 0 a 2 años: gratuito - De 3 a 12 años: tarifa infantil - A partir de 13 años: tarifa de adulto Los huéspedes que deseen más información sobre las tarifas infantiles deberán ponerse en contacto con el departamento de reservas del hotel.",
     "precio" :  "$ 1.156.515" ,
     "puntuacion" : " ***** "
@@ -48,7 +48,7 @@
     "id" : 6,
     "codigo" : "Jamaica",
     "titulo" : "Iberostar Selection Rose Hall Suites All Inclusive",
-    "imagen" : "Jamaica.jpg",
+    "imagen" : "img/Jamaica.jpg",
     "descripcion" : "Iberostar Selection Rose Hall Suites All Inclusive está en una fantástica zona de Bahía Montego (Northern Estates), a menos de diez minutos en coche de Gran casa Rose Hall y Centro de convenciones de Montego Bay.Te sentirás como en tu propia casa en cualquiera de las 319 habitaciones con aire acondicionado, frigorífico y minibar. Las habitaciones disponen de balcón. La conexión a Internet wifi gratis te permite comunicarte con los tuyos, y en tus ratos libres tendrás un televisión de pantalla plana con canales por cable para entretenerte.El régimen de este alojamiento es de todo incluido. Degusta algo de cocina mexicana en Maria Bonita, uno de los 5 restaurantes de este alojamiento. El alojamiento también te ofrece servicio de habitaciones las 24 horas y 2 cafeterías. Relájate con un refresco del bar junto a la piscina o de uno de los 6 bares con salón. Se ofrece un desayuno bufé gratuito. ",
     "precio" : "$ 1.741.509" ,
     "puntuacion" : " ***** "
